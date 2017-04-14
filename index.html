@@ -1,0 +1,62 @@
+<html>
+<head>
+<title> Captive Portal</title>
+<style>
+.panel{
+width:50%;
+height:50%;
+background-color:black;
+text-align:center;
+margin-left:23%;
+margin-top:15%;
+color:white;
+}
+input[type=submit]{
+border-style:none;
+width:25%;
+height:10%;
+background-color:gray;
+
+}
+input[type=text]{
+border-style:dotted;
+width:25%;
+}
+input[type=text]:focus{
+border-style:none;
+width:50%;
+}
+input[type=password]{
+border-style:dotted;
+width:25%;
+}
+input[type=password]:focus{
+border-style:dashed;
+width:50%;
+}
+
+
+
+
+</style>
+</head>
+<body bgcolor="blue">
+<meta >
+<div class="panel">
+<img src="logo.png" width="80px" height="70px"/>
+<form method="post" action="verify.php">
+<br/><br/>
+<lable>Username</lable><br/>
+<br/>
+<input type="text" name="username" /><br/>
+<br/>
+<lable>Password</lable><br/>
+<input type="password" name="password" />
+<br/>
+<br/>
+<input type="submit" value="login" />
+</form>
+</div>
+</meta>
+</body>
+</html>
